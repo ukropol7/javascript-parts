@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const isEven = (num) => num % 2 === 0;
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log("0 && 1 = "+(0 && 1));
+const uniqueArray = arr => [...new Set(arr)];
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
