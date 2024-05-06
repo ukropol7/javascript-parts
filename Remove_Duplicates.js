@@ -1,3 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-var arr2 = arr1.reverse();
-const results = await Promise.all(resultingPromises);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isEven = (num) => num % 2 === 0;
