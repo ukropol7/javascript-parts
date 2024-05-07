@@ -1,3 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const uniqueArray = arr => [...new Set(arr)];
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+console.log(+"1" +  "1" + "2");
