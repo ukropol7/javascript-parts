@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isEven = (num) => num % 2 === 0;
+console.log("1 && 2 = "+(1 && 2));
+const removeDuplicates = (arr) => [...new Set(arr)];
