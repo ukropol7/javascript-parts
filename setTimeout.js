@@ -1,3 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-console.log(1 +  "2" + "2");
-console.log(false == '0');
+console.log( "A" - "B" + 2);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
