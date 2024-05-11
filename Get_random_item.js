@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const goToTop = () => window.scrollTo(0, 0);
+const randomBoolean = () => Math.random() >= 0.5;
+const arrayContains = (arr, element) => arr.includes(element);
+var pattern = {};
