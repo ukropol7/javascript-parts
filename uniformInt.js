@@ -1,2 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const removeDuplicates = (arr) => [...new Set(arr)];
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const flattenedArray = arr => [].concat(...arr);
