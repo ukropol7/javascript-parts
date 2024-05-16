@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const flattenedArray = arr => [].concat(...arr);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
