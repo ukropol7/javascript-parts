@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-[foo, bar] = [bar, foo];
+const merge = [...new Set([...a, ...b])];
+const reversedString = str => str.split('').reverse().join('');
