@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
