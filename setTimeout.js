@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const executableName = getExecutableName(channel, appName);
+const isTabInView = () => !document.hidden;
+console.log("1 || 2 = "+(1 || 2));
