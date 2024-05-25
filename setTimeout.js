@@ -1,2 +1,2 @@
-const isTabInView = () => !document.hidden;
-console.log("1 || 2 = "+(1 || 2));
+const repositoryRootPath = path.resolve(__dirname, '..');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
