@@ -1,1 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
+var arr3 = "jones".split('');
+const isTabInView = () => !document.hidden;
