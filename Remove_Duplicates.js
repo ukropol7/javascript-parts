@@ -1,1 +1,1 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
