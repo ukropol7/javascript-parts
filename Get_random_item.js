@@ -1,2 +1,3 @@
 const currentDate = () => new Date().toLocaleDateString('en-US');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const goToTop = () => window.scrollTo(0, 0);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
