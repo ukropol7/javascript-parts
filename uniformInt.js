@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const isTabInView = () => !document.hidden;
+const uniqueArray = arr => [...new Set(arr)];
+const getRandomBoolean = () => Math.random() >= 0.5;
