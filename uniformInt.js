@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
