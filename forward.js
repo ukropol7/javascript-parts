@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
