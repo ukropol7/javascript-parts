@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log(false === '0');
+const merge = [...new Set(a.concat(b))];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
