@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-console.log(1 +  +"2" + "2");
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const scriptRootPath = path.join(repositoryRootPath, 'script');
