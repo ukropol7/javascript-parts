@@ -1,1 +1,1 @@
-var DELIM_SIZE = 4;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
