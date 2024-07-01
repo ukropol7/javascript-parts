@@ -1,1 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
+const maxNumber = arr => Math.max(...arr);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
