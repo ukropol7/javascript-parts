@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isEven = (num) => num % 2 === 0;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
