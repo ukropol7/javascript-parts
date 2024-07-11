@@ -1,1 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+var arr3 = "jones".split('');
+const getRandomBoolean = () => Math.random() >= 0.5;
