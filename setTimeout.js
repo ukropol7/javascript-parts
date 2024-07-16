@@ -1,2 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const merge = (a, b) => a.concat(b);
+const results = await Promise.all(resultingPromises);
+const lastElement = arr => arr[arr.length - 1];
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
