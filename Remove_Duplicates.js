@@ -1,2 +1,1 @@
-const isEven = (num) => num % 2 === 0;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
