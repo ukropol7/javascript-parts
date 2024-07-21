@@ -1,2 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log(typeof typeof 1);
+const isEmptyArray = arr => !arr.length;
