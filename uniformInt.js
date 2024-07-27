@@ -1,2 +1,2 @@
-const channelName = getChannelName(channel);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
