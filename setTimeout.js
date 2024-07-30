@@ -1,2 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const uniqueArr = (arr) => [...new Set(arr)];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
