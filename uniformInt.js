@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isArray = (arr) => Array.isArray(arr);
+var arr1 = "john".split('');
