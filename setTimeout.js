@@ -1,1 +1,2 @@
-const results = await Promise.all(resultingPromises);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const maxNumber = arr => Math.max(...arr);
